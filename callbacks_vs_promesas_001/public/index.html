@@ -7,11 +7,47 @@
   <title>Index</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./index.js" defer></script>
+  <script src="./aa_asincronia.js" defer></script>
+  <script src="./ab_naturaleza_sincrona.js" defer></script>
+  <script src="./ac_asinc_callback_hell.js" defer></script>
+  <script src="./ad_asinc_promise.js" defer></script>
+  <script src="./ae_asinc_promise_fetch.js" defer></script>
 </head>
 
 <body>
-  <h1>Hola mundo desde la página INDEX del html</h1>
-  <button>Obtener tareas</button>
+
+  <div>
+    <h1>APP DE TAREAS</h1>
+    <INPUt></INPUt>
+    <button>Crear tarea</button>
+  </div>
+
+  <div>
+    <div>
+      <h1>ASINCRONA DADA POR EL ENTORNO --> TIMER</h1>
+      <button id="aa_asincronia">aa_asincronia.js</button>
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <h1>OJO CON LAS OPERACIONES SINCRONAS BLOQUEAN HIJO EJECUCION JS</h1>
+      <button id="ab_naturaleza_sincrona">aa_asincronia.js</button>
+      <button id="ab_naturaleza_sincrona_todo">aa_asincronia.js</button>
+    </div>
+  </div>
+
+  // ASYNC
+  <div>
+    <div>
+      <h1>CALLBACK HELL</h1>
+      <button id="ac_asinc_callback_hell">Callback Hell</button>
+      <button id="ad_asinc_promise">Promise</button>
+      <button id="ae_asinc_promise_fetch">Promise Fetch</button>
+      <button id="ae_asinc_promise_fetch_mejorada">Promise Fetch mejorada</button>
+      <button id="ae_ejecutaSincronia_await">Promise Fetch await</button>
+    </div>
+  </div>
 </body>
 
 </html>

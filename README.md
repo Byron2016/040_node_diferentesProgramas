@@ -68,5 +68,10 @@ Se hace con un stack tecnológico un poco mezclado
 
   - Uso de callbacks, promesas y comparación entre ellos.
 
+- callbacks_vs_promesas_001
+
+  - Uso de callbacks, promesas y comparación entre ellos.
+  - Hay toda una serie de vídeos.
+
 - menu_submenu
   - Tiene un menú que llama a submenus.
