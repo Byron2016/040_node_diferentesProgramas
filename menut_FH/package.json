@@ -1,0 +1,22 @@
+{
+  "name": "menut_FH",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "amano": "node src/amano.js",
+    "pizza": "node packages/inquirer/examples/pizza.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "7.3.3"
+  }
+}
